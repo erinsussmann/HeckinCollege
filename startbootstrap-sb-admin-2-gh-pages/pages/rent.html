@@ -46,6 +46,9 @@
 
                 <li><a href="#">What do you need help with?</a>
                 </li>
+                <li><!--taxes-->
+                    <a href="tipcalculator.html"> Pls Leave a Tip</a>
+                </li>
                   <li><!--carthings-->
                       <a href="#"> Car Things<span class="fa arrow"></span></a>
                       <ul class="nav nav-second-level">
@@ -155,10 +158,16 @@
         //text = "Don't freak out but this means you need to be responsible for all payments, no matter who's name is on the lease.";
       }
       else if (x > 1 && x < 5) {
-        var text = "Input is sort of valid";
+        var text = "Okay, so you have roommates. That's fantastic, but you need to get organized since you are responsible for being " +
+        "aware of all desicions. <br> If your name is on the lease, you can accumulate credit." +
+        " But this also means you are responsible for paying rent on time. <br> For reference, the average college dorm is 350 square feet. You need a kitchen, a bedroom, and utilities (electricity, cable, water depending on where you rent from). Consider the location and distance from your workplace, home, or school. <br>" +
+        " You want rent that is cheap for the area. Some renters include certain utilities in with the rent, meaning you don't need to pay extra for services like Xfinity for cable/internet." ;
       }
       else {
-        var text = "Input OK";
+        var text = "Okay, so you have lots of roommates. That's fantastic, but you need to get organized since you are responsible for being " +
+        "aware of all desicions. <br> If your name is on the lease, you can accumulate credit." +
+        " But this also means you are responsible for paying rent on time. <br> For reference, the average college dorm is 350 square feet. You need a kitchen, a bedroom, and utilities (electricity, cable, water depending on where you rent from). Consider the location and distance from your workplace, home, or school. <br>" +
+        " You want rent that is cheap for the area. Some renters include certain utilities in with the rent, meaning you don't need to pay extra for services like Xfinity for cable/internet." ;
       }
       document.getElementById("demo").innerHTML = text;
   }
