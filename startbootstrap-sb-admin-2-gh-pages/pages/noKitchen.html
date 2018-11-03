@@ -22,7 +22,7 @@
 
     <!-- Custom Fonts -->
     <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -45,66 +45,111 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Hecking College</a>
+                <a class="navbar-brand" href="index.html">SB Admin v2.0</a>
             </div>
-
-
-            <!-- /.navbar-top-links -->
+            <!-- /.navbar-header -->
 
             <div class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse">
-
-
-                  <ul class="nav" id="side-menu">
-
-                      <li> <a href="#">What do you need help with?</a>
-        <!--carthings-->
-                            <a href="#"> Unbreak Your Car<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-
-                                <li>
-                                    <a href="oilchange.html">Oil Change</a>
-                                </li>
-
-                                <li>
-                                    <a href="deadbattery.html">Your Car Won't Start</a>
-                                </li>
-                                <li>
-                                    <a href="flattire.html">Flat Tire</a>
-                                </li>
-                            </ul>
-                          </li>
-                            <!-- /.nav-second-level -->
-                        <!--carthings-->
-                        <li> <!--rent-->
-                            <a href="rent.html"> Paying for a Location to Live</a>
-                        </li>
-                        <li><!--taxes-->
-                            <a href="taxes.html"> They know eveything (AKA Taxes)</a>
+                    <ul class="nav" id="side-menu">
+                        <li class="sidebar-search">
+                            <div class="input-group custom-search-form">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </span>
+                            </div>
+                            <!-- /input-group -->
                         </li>
                         <li>
-                          <a href="tipcalculator.html"> How much do you tip?</a>
-                      </li>
-                        <li><!--Eat-->
-                            <a href="#"> Cooking Know How<span class="fa arrow"></span></a>
+                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
-                              <li>
-                                  <a href="Cooking101.html">Cooking 101</a>
-                              </li>
-                                      <li>
-                                          <a href="noKitchen.html">Microwave</a>
-                                      </li>
-                                      <li>
-                                          <a href="recipeskitchen.html">Kitchen</a>
-                                      </li>
+                                <li>
+                                    <a href="flot.html">Flot Charts</a>
+                                </li>
+                                <li>
+                                    <a href="morris.html">Morris.js Charts</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
+                        </li>
+                        <li>
+                            <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="panels-wells.html">Panels and Wells</a>
+                                </li>
+                                <li>
+                                    <a href="buttons.html">Buttons</a>
+                                </li>
+                                <li>
+                                    <a href="notifications.html">Notifications</a>
+                                </li>
+                                <li>
+                                    <a href="typography.html">Typography</a>
+                                </li>
+                                <li>
+                                    <a href="icons.html"> Icons</a>
+                                </li>
+                                <li>
+                                    <a href="grid.html">Grid</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#">Second Level Item</a>
+                                </li>
+                                <li>
+                                    <a href="#">Second Level Item</a>
+                                </li>
+                                <li>
+                                    <a href="#">Third Level <span class="fa arrow"></span></a>
+                                    <ul class="nav nav-third-level">
+                                        <li>
+                                            <a href="#">Third Level Item</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Third Level Item</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Third Level Item</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Third Level Item</a>
+                                        </li>
                                     </ul>
                                     <!-- /.nav-third-level -->
                                 </li>
-
-
+                            </ul>
                             <!-- /.nav-second-level -->
                         </li>
-
+                        <li class="active">
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a class="active" href="blank.html">Blank Page</a>
+                                </li>
+                                <li>
+                                    <a href="login.html">Login Page</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->
@@ -118,25 +163,31 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">No kitchen required!</h1>
-                    </div>
                     <div id="recipeLinks"class="col-lg-12">
                       <p>Here are some recipes to help you get started with cooking. Whether you live
                       in a dorm that has a kitchen or not, you'll find something here that you would
                       would be able to make.
                       </p>
+
+                      <img src="C:\Users\Josephine Garcia\Desktop\HackHolyoke\HeckinCollege\startbootstrap-sb-admin-2-gh-pages\vendor\datatables\images\mug.jpg" style="width:350px;height:300px;border:0">
                       <div id="recipe1">
-                        <a href="https://www.biggerbolderbaking.com/breakfast-cookie-mug/"
-                          target="_blank"> Microwave Breakfast Cookie in a mug
-                          <img src="C:\Users\Josephine Garcia\Desktop\HackHolyoke\HeckinCollege\startbootstrap-sb-admin-2-gh-pages\vendor\datatables\images\mug.jpg" style="width:150px;height:100px;border:0">
-                        </a>
+                        <a href="https://www.biggerbolderbaking.com/breakfast-cookie-mug/" target="_blank"> Microwave Breakfast Cookie in a mug</a>
                       </div>
+                      <hr>
+
+                      <img src="C:\Users\Josephine Garcia\Desktop\HackHolyoke\HeckinCollege\startbootstrap-sb-admin-2-gh-pages\vendor\datatables\images\blueberryOats.jpg" style="width:350px;height:300px;border:0">
                       <div id="recipe2">
-                        <a href="https://brooklynfarmgirl.com/overnight-blueberry-maple-oatmeal/"
-                          target="_blank"> Overnight Blueberry Maple Oatmeal
-                          <img src="C:\Users\Josephine Garcia\Desktop\HackHolyoke\HeckinCollege\startbootstrap-sb-admin-2-gh-pages\vendor\datatables\images\blueberryOats.jpg" style="width:150px;height:100px;border:0">
-                        </a>
+                        <a href="https://brooklynfarmgirl.com/overnight-blueberry-maple-oatmeal/" target="_blank"> Overnight Blueberry Maple Oatmeal</a>
                       </div>
+                      <hr>
+
+                      <img src="C:\Users\Josephine Garcia\Desktop\HackHolyoke\HeckinCollege\startbootstrap-sb-admin-2-gh-pages\vendor\datatables\images\jambalaya.jpg" style="width:350px;height:300px;border:0">
+                      <div id="recipe2">
+                        <a href="https://www.bbcgoodfood.com/recipes/1243/microwave-jambalaya" target="_blank"> Microwave Jamabalaya</a>
+                      </div>
+
                     </div>
+                  </div>
                     <!-- /.col-lg-12 -->
                 </div>
                 <!-- /.row -->
