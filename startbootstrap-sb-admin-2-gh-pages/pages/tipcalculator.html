@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Blank</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+      <!-- /.navbar-top-links -->
+
+      <div class="navbar-default sidebar" role="navigation">
+          <div class="sidebar-nav navbar-collapse">
+
+
+            <ul class="nav" id="side-menu">
+
+                <li><a href="#">What do you need help with?</a>
+                </li>
+                  <li><!--carthings-->
+                      <a href="#"> Car Things<span class="fa arrow"></span></a>
+                      <ul class="nav nav-second-level">
+                          <li>
+                              <a href="oilchange.html">Oil Change</a>
+                          </li>
+                          <li>
+                              <a href="unbreakyourcar.html">Unbreak Your Car</a>
+                          </li>
+                          <li>
+                              <a href="deadbattery.html">Your Car has Died</a>
+                          </li>
+                          <li>
+                              <a href="flattire.html">Flat Tire, Flat EMG -> no electrochemical gradient -> cellular death -> actual death</a>
+                          </li>
+                      </ul>
+                    </li>
+                      <!-- /.nav-second-level -->
+                  <!--carthings-->
+                  <li> <!--rent-->
+                      <a href="rent.html"> Paying for a Location to Live</a>
+                  </li>
+                  <li><!--taxes-->
+                      <a href="taxes.html"> They know eveything (AKA Taxes)</a>
+                  </li>
+                  <li><!--Eat-->
+                      <a href="#"> Eat<span class="fa arrow"></span></a>
+                      <ul class="nav nav-second-level">
+                          <li>
+                              <a href="recipes.html">Remember to Eat</a>
+                          </li>
+
+                          <li>
+                              <a href="#">The real questions in the lab<span class="fa arrow"></span></a>
+                              <ul class="nav nav-third-level">
+                                <li>
+                                    <a href="recipes_mk.html">Microwave</a>
+                                </li>
+                                <li>
+                                    <a href="recipeskitchen.html">Kitchen</a>
+                                </li>
+                              </ul>
+                              <!-- /.nav-third-level -->
+                          </li>
+                      </ul>
+
+                      <!-- /.nav-second-level -->
+                  </li>
+
+              </ul>
+          </div>
+          <!-- /.sidebar-collapse -->
+      </div>
+      <!-- /.navbar-static-side -->
+  </nav>
+
+        <!-- Page Content -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">Calculate Your Tip</h1>
+                        <div id="container">
+  <h1>Tip Calculator</h1>
+  <div id="calculator">
+
+
+    <form>
+      <p>How much was your bill? (Enter regardless of Currency)
+        <p>
+           <input id="billamt" type="text" placeholder="Bill Amount">
+
+          <p>How much do you want to tip?
+            <p>
+
+              <select id="serviceQual">
+
+            <option disabled selected value="0">-- Choose an Option --</option>
+            <optgroup label = "In America">
+            <option value="0.2">20&#37; &#45; Exceptional </option>
+            <option value="0.15">15&#37; &#45; Standard </option>
+            </optgroup>
+            <optgroup label ="In England">
+            <option value="0.15">15&#37; &#45; Exceptional </option>
+            <option value="0.10">10&#37; &#45; Standard </option>
+            <optgroup label ="In France">
+            <option value="0.05">5&#37; &#45; Exceptional </option>
+            <optgroup label ="In Italy">
+            <option value="0.10">10&#37; &#45; Exceptional </option>
+            <optgroup label ="In Germany">
+            <option value="0.10">10&#37; &#45; Standard </option>
+            <optgroup label ="In Istanbul">
+            <option value="0.10">10&#37; &#45; Exceptional </option>
+            <option value="0.05">5&#37; &#45; Standard </option>
+
+
+
+        </select>
+
+
+    </form>
+    <p>How many people are sharing the bill?</p>
+    <input id="peopleamt" type="text" placeholder="Number of People"> people
+    <button type="button" id="calculate">Calculate!</button>
+
+  </div>
+  <!--calculator end-->
+  <div id="totalTip">
+    <sup>$</sup><span id="tip">0.00</span>
+    <small id="each">each</small>
+  </div>
+  <!--totalTip end-->
+
+<div>
+  <br>
+  <p> It should be noted that for countries
+    such as France and Italy, tips should only be including
+    if the final bill does not include a tip (the practice of adding
+    a tip onto the final bill is called <em>servizio inccluso</em>) OR if service
+    far exceeded expectations. The numbers listed above for these countries assume <em>servizio inccluso</em>
+    and assume you wish to leave a tip for exemplary service. </p>
+
+
+</div>
+
+</div>
+<!--container end-->
+
+<script type="text/javascript" src="tipcalculator.js"></script>
+
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
