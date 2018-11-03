@@ -38,90 +38,86 @@
 
     <div id="wrapper">
 
-      <div class="navbar-default sidebar" role="navigation">
-          <div class="sidebar-nav navbar-collapse">
-
-
-            <ul class="nav" id="side-menu">
-
-                <li><a href="#">What do you need help with?</a>
-                </li>
-                <li><!--taxes-->
-                    <a href="tipcalculator.html"> Pls Leave a Tip</a>
-                </li>
-                  <li><!--carthings-->
-                      <a href="#"> Car Things<span class="fa arrow"></span></a>
-                      <ul class="nav nav-second-level">
-                          <li>
-                              <a href="oilchange.html">Oil Change</a>
-                          </li>
-                          <li>
-                              <a href="unbreakyourcar.html">Unbreak Your Car</a>
-                          </li>
-                          <li>
-                              <a href="deadbattery.html">Your Car has Died</a>
-                          </li>
-                          <li>
-                              <a href="flattire.html">Flat Tire, Flat EMG -> no electrochemical gradient -> cellular death -> actual death</a>
-                          </li>
-                      </ul>
-                    </li>
-                      <!-- /.nav-second-level -->
-                  <!--carthings-->
-                  <li> <!--rent-->
-                      <a href="rent.html"> Paying for a Location to Live</a>
-                  </li>
-                  <li><!--taxes-->
-                      <a href="taxes.html"> They know eveything (AKA Taxes)</a>
-                  </li>
-                  <li><!--Eat-->
-                      <a href="#"> Eat<span class="fa arrow"></span></a>
-                      <ul class="nav nav-second-level">
-                          <li>
-                              <a href="recipes.html">Remember to Eat</a>
-                          </li>
-
-                          <li>
-                              <a href="#">The real questions in the lab<span class="fa arrow"></span></a>
-                              <ul class="nav nav-third-level">
-                                <li>
-                                    <a href="recipes_mk.html">Microwave</a>
-                                </li>
-                                <li>
-                                    <a href="recipeskitchen.html">Kitchen</a>
-                                </li>
-                              </ul>
-                              <!-- /.nav-third-level -->
-                          </li>
-                      </ul>
-
-                      <!-- /.nav-second-level -->
-                  </li>
-
-              </ul>
+      <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Hecking College</a>
           </div>
-          <!-- /.sidebar-collapse -->
-      </div>
-      <!-- /.navbar-static-side -->
-  </nav>
-                        <li class="active">
-                            <a href="#"><i class="fa fa-files-o fa-fw"></i>Timer<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a class="active" href="blank.html">Your Schedule</a>
-                                </li>
-                                <li>
-                                    <a href="login.html">Login Page</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
+
+
+          <!-- /.navbar-top-links -->
+
+          <div class="navbar-default sidebar" role="navigation">
+              <div class="sidebar-nav navbar-collapse">
+
+
+                <ul class="nav" id="side-menu">
+
+                    <li> <a href="#">What do you need help with?</a>
+                    </li>
+                  <link href="file:///C:/Users/Ted/Documents/DoTheShit/HeckinCollege/startbootstrap-sb-admin-2-gh-pages/pages/tipcalculator.html" #>
+                      <li><!--carthings-->
+                          <a href="#"> Car Things<span class="fa arrow"></span></a>
+                          <ul class="nav nav-second-level">
+                              <li>
+                                  <a href="oilchange.html">Oil Change</a>
+                              </li>
+                              <li>
+                                  <a href="unbreakyourcar.html">Unbreak Your Car</a>
+                              </li>
+                              <li>
+                                  <a href="deadbattery.html">Your Car has Died</a>
+                              </li>
+                              <li>
+                                  <a href="flattire.html">Flat Tire, Flat EMG -> no electrochemical gradient -> cellular death -> actual death</a>
+                              </li>
+                          </ul>
                         </li>
-                    </ul>
-                </div>
-                <!-- /.sidebar-collapse -->
-            </div>
-            <!-- /.navbar-static-side -->
-        </nav>
+                          <!-- /.nav-second-level -->
+                      <!--carthings-->
+                      <li> <!--rent-->
+                          <a href="rent.html"> Paying for a Location to Live</a>
+                      </li>
+                      <li><!--taxes-->
+                          <a href="taxes.html"> They know eveything (AKA Taxes)</a>
+                      </li>
+                      <li><!--Eat-->
+                          <a href="#"> Eat<span class="fa arrow"></span></a>
+                          <ul class="nav nav-second-level">
+                              <li>
+                                  <a href="recipes.html">Remember to Eat</a>
+                              </li>
+
+                              <li>
+                                  <a href="#">The real questions in the lab<span class="fa arrow"></span></a>
+                                  <ul class="nav nav-third-level">
+                                    <li>
+                                        <a href="recipes_mk.html">Microwave</a>
+                                    </li>
+                                    <li>
+                                        <a href="recipeskitchen.html">Kitchen</a>
+                                    </li>
+                                  </ul>
+                                  <!-- /.nav-third-level -->
+                              </li>
+                          </ul>
+
+                          <!-- /.nav-second-level -->
+                      </li>
+
+                  </ul>
+              </div>
+              <!-- /.sidebar-collapse -->
+          </div>
+          <!-- /.navbar-static-side -->
+      </nav>
+
+                      
 
         <!-- Page Content -->
         <div id="page-wrapper">
@@ -158,10 +154,10 @@
         //text = "Don't freak out but this means you need to be responsible for all payments, no matter who's name is on the lease.";
       }
       else if (x > 1 && x < 5) {
-        var text = "Okay, so you have roommates. That's fantastic, but you need to get organized since you are responsible for being " +
-        "aware of all desicions. <br> If your name is on the lease, you can accumulate credit." +
-        " But this also means you are responsible for paying rent on time. <br> For reference, the average college dorm is 350 square feet. You need a kitchen, a bedroom, and utilities (electricity, cable, water depending on where you rent from). Consider the location and distance from your workplace, home, or school. <br>" +
-        " You want rent that is cheap for the area. Some renters include certain utilities in with the rent, meaning you don't need to pay extra for services like Xfinity for cable/internet." ;
+        var text = "Okay, so you have roommates. That's fantastic, but you need to get organized since you are responsible for being aware of all desicions. <br> </br>" +
+        "<br> If your name is on the lease, you can accumulate credit. But this also means you are responsible for paying rent on time. <br> </br>" +
+        "<br> For reference, the average college dorm is 350 square feet. You need a kitchen, a bedroom, and utilities (electricity, cable, water depending on where you rent from). Consider the location and distance from your workplace, home, or school. <br> </br>" +
+        "<br> Your real priorities are cost. You want rent that is cheap for the area. Some renters include certain utilities in with the rent, meaning you don't need to pay extra for services like Xfinity for cable/internet." ;
       }
       else {
         var text = "Okay, so you have lots of roommates. That's fantastic, but you need to get organized since you are responsible for being " +
