@@ -1412,6 +1412,12 @@ a.bg-danger:focus {
   margin: 40px 0 20px;
   border-bottom: 1px solid #eee;
 }
+.page-middle {
+  padding-bottom: 7px;
+  margin: 40px 0 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 10px;
+}
 ul,
 ol {
   margin-top: 0;
